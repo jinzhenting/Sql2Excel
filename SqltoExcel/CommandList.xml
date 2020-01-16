@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandList>
+   <NRX_Daily_Order_Report_1个月数据 name="SELECT PODate AS 客户下单日期, OrderName AS 订单编号, PriceRMB AS 平方单价, TotalRMB AS 总费用, EMBNo AS 图案编号, ClothWidemm AS 布料宽, ClothHeightmm AS 布料高, Area AS 面积, Contact AS 客户联系 FROM [Order] WHERE Mode='O' OR Mode='C' ORDER BY PODate DESC">
+      </NRX_Daily_Order_Report_1个月数据>
+</CommandList>
